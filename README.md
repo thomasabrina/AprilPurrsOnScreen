@@ -25,10 +25,6 @@ AprilPurrsOnScreen is a Chrome browser extension that brings an interactive Brit
 - You can add more images of April in different poses to the `images` directory.
 - Update the `content.js` file to include new images in the `images` array.
 
-## Contributing
-
-Feel free to submit issues or pull requests if you have suggestions or improvements.
-
 ## License
 
 This project is licensed under the MIT License.
