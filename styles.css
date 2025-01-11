@@ -1,0 +1,12 @@
+#april-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#april {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+} 

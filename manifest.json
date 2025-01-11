@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "April the British Shorthair",
+  "version": "1.0",
+  "description": "An interactive British Shorthair cat named April on your screen.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "48": "images/icon.png"
+  }
+} 
